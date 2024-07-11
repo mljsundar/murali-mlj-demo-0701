@@ -4,12 +4,12 @@ public class Calculation  {
     public Integer result {get;set;}
     public string operation {get;set;}
  
-    public pagereference sub() {
+    public pagereference substration() {
         result = xvalue-yvalue;
         operation = 'Subtraction';
         return null;
     }
-    public pagereference add() {
+    public pagereference addition() {
         result = xvalue+yvalue;
         operation = 'Addition';
         return null;
